@@ -1,0 +1,128 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+
+body {
+   font-family: 'Roboto', Arial, sans-serif;
+}
+h1,h2,h3 {
+   font-family: 'Oswald', Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+   padding: 0;
+}
+.green-shadow {
+   color: #fff;
+   text-shadow: 2px 2px 2px green;
+}
+.white-shadow {
+   color: #fff;
+   text-shadow: 2px 2px 2px black;
+}
+.red-shadow {
+   color: #fff;
+   text-shadow: 2px 2px 2px red;
+}
+
+nav.navbar {
+   border-radius: 0;
+}
+
+#header {
+   .jumbotron {
+      background: url('../images/zebra.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 450px;
+      width: 100%;
+      h1 {
+         font-size: 90px;
+         text-shadow: 1px 2px 2px #fff;
+      }
+      h3 {
+         text-shadow: 1px 2px 2px #fff;
+      }
+   }
+}
+
+#landing-info {
+   h3 {
+      text-align: center;
+      padding-bottom: 20px;
+   }
+}
+
+#gallery {
+   h3 {
+      text-align: center;
+      padding-bottom: 50px;
+      font-size: 90px;
+   }
+   margin-top: 50px;
+   a.thumbnail {
+      border: 0;
+   }
+}
+
+#menu {
+   margin-top: 50px;
+   .btn-container {
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 20px;
+      .btn {
+         transition: .3s ease-in-out;
+      }
+      .btn:hover {
+         box-shadow: 0px 0px 10px black;
+      }
+   }
+   h3 {
+      text-align: center;
+      padding-bottom: 50px;
+      font-size: 90px;
+   }
+   .breakfast-cont {
+      text-align: center;
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+      padding: 20px;
+      box-shadow: 0px 0px 10px black;
+      }
+      .lunch-cont {
+         text-align: center;
+         margin: 0 auto;
+         width: 90%;
+         height: 100%;
+         padding: 20px;
+         box-shadow: 0px 0px 10px black;
+         }
+         .dinner-cont {
+            text-align: center;
+            margin: 0 auto;
+            width: 90%;
+            height: 100%;
+            padding: 20px;
+            box-shadow: 0px 0px 10px black;
+            }
+   }
+
+#footer {
+   text-align: center;
+   background: #333;
+   height: auto;
+   width: 100%;
+   color: #ccc;
+   h4 {
+      margin-top: 10px;
+   }
+   ul {
+      list-style: none;
+      padding: 0;
+   }
+}

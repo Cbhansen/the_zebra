@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  font-family: 'Roboto', Arial, sans-serif; }
+
+h1, h2, h3 {
+  font-family: 'Oswald', Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+.green-shadow {
+  color: #fff;
+  text-shadow: 2px 2px 2px green; }
+
+.white-shadow {
+  color: #fff;
+  text-shadow: 2px 2px 2px black; }
+
+.red-shadow {
+  color: #fff;
+  text-shadow: 2px 2px 2px red; }
+
+nav.navbar {
+  border-radius: 0; }
+
+#header .jumbotron {
+  background: url("../images/zebra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%; }
+  #header .jumbotron h1 {
+    font-size: 90px;
+    text-shadow: 1px 2px 2px #fff; }
+  #header .jumbotron h3 {
+    text-shadow: 1px 2px 2px #fff; }
+
+#landing-info h3 {
+  text-align: center;
+  padding-bottom: 20px; }
+
+#gallery {
+  margin-top: 50px; }
+  #gallery h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 90px; }
+  #gallery a.thumbnail {
+    border: 0; }
+
+section#menu {
+  margin-top: 50px; }
+  section#menu h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 90px; }
+  section#menu .breakfast-cont {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black; }
+    section#menu .breakfast-cont button.btn {
+      transition: .3s all;
+      box-shadow: 0px 0px 5px black; }
+      section#menu .breakfast-cont button.btn:hover {
+        box-shadow: 0px 0px 10px black; }
+  section#menu .lunch-cont {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black; }
+    section#menu .lunch-cont button.btn {
+      transition: .3s all;
+      box-shadow: 0px 0px 5px black; }
+      section#menu .lunch-cont button.btn:hover {
+        box-shadow: 0px 0px 10px black; }
+  section#menu .dinner-cont {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black; }
+    section#menu .dinner-cont button.btn {
+      transition: .3s all;
+      box-shadow: 0px 0px 5px black; }
+      section#menu .dinner-cont button.btn:hover {
+        box-shadow: 0px 0px 10px black; }
+
+#footer {
+  text-align: center;
+  background: #333;
+  height: 100px;
+  width: 100%;
+  color: #ccc; }
+  #footer h4 {
+    margin-top: 10px; }
+  #footer ul {
+    list-style: none;
+    padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */
